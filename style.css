@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column; /* Вертикальное размещение контента */
+    align-items: center; /* Центрирование контента по горизонтали */
+    background-color: #f0f0f0; /* Светлый фон для контраста */
+}
+
+h1 {
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+}
+
+.card {
+    width: 600px;
+    height: 300px;
+    background-color: burlywood;
+    border-radius: 20px; /* Уменьшил радиус для более аккуратного вида */
+    margin: 20px; /* Уменьшил отступ между карточками */
+    display: flex; /* Используем флекс для размещения элементов внутри карточки */
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    justify-content: center; /* Центрируем элементы по вертикали */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавим тень для глубины */
+}
+
+.card:hover {
+    background-color: #0080ff;
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.photo {
+    height: 60%; /* Увеличил высоту блока с фото */
+    display: flex; /* Используем флекс для центрирования изображения */
+    align-items: center; /* Центрируем изображение по вертикали */
+    justify-content: center; /* Центрируем изображение по горизонтали */
+}
+
+.photo img {
+    height: 90%; /* Высота изображения */
+    border-radius: 20px; /* Закругленные углы у изображения */
+}
+
+.info {
+    text-align: center; /* Центрируем текст */
+    padding: 10px; /* Уменьшил отступы для лучшего восприятия */
+    height: 40%; /* Высота блока с информацией */
+}
